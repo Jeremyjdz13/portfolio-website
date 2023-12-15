@@ -34,27 +34,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Certificate of Completion",
-    location: "Seattle, WA",
-    description:
-      "I graduated after 7 months of studying, focus JavaScript, React, and Nodejs.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
     title: "Corporate Service Engineer",
     location: "Seattle, WA",
     description:
       "I used my skills in JavaScript, HTML, and CSS to facilitate and develope department SharePoint sites.",
-    icon: React.createElement(FaReact),
-    date: "2019 - 2021",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2021",
+  },
+  {
+    title: "Certificate of Completion",
+    location: "University of Washington",
+    description:
+      "I completed the certificate after 7 months of studying, JavaScript, React, and Nodejs.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
   },
   {
     title: "Software Engineer",
     location: "Seattle, WA",
     description:
       "I worked as a software engineer for 2 years, where I up-skilled with AWS, Kubernetes, Gitlab, DataDog, and more.",
-    icon: React.createElement(CgWorkAlt),
+    icon:  React.createElement(FaReact),
     date: "2021 - 2023",
   },
   
