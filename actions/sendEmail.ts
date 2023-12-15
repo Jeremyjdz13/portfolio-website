@@ -1,5 +1,3 @@
-"use server"
-
 import { Resend } from 'resend'
 import { validateString, getErrorMessage } from '@/app/lib/utils'
 import ContactFormEmail from '@/email/contact-form-email'
@@ -7,7 +5,7 @@ import React from 'react'
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 export const sendEmail = async (formData: FormData) => {
-    
+    "use server"
     const senderEmail = formData.get('senderEmail')
     const senderMessage = formData.get('message')
 
