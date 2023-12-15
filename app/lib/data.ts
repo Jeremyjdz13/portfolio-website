@@ -78,7 +78,7 @@ export const projectsData = [
   {
     title: "Note Taking App",
     description:
-      "Note taking app that allows users to create, edit, and delete notes. This is a full-stack app that uses Next.js, Prisma, and PostgreSQL.",
+      "Note taking app that allows users to create, edit, and delete notes. This is a full-stack app that uses Next.js, Prisma, Zod, and PostgreSQL.",
     tags: ["Vite", "LocalStorage", "Tailwind", "TypeScript"],
     imageUrl: Notes,
   },
